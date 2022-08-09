@@ -1,5 +1,10 @@
 ------------------------------------------------------------------------
-Kita membuat game dengan menggunakan aplikasi greenfoot, di aplikasi tersebut terdapat bee (lebah) yang dapat bergerak ke atas,bawah,kanan,dan kiri dengan terhubungke database phpmyadmin dengan menngunakan JDBC Driver
+Kita membuat game dengan menggunakan aplikasi greenfoot, di aplikasi tersebut terdapat bee (lebah) yang dapat bergerak ke atas,bawah,kanan,dan kiri dengan terhubung ke database phpmyadmin dengan menngunakan JDBC Driver mysql
+Di sini kita akan membahas tentang 
+import java.sql.Connection 
+merupakan penghubung koneksi ke phpmyadmin yang didalamnya terdapat :
+1. String DB : ini adalah link untuk nama databasenyaa yaitu ""
+2. String user :
 
 This is the project README file. Here, you should describe your project.
 Tell the reader (someone who does not know anything about this project)
