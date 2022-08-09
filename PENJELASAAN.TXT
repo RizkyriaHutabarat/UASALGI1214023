@@ -1,4 +1,6 @@
 ------------------------------------------------------------------------
+Kita membuat game dengan menggunakan aplikasi greenfoot, di aplikasi tersebut terdapat bee (lebah) yang dapat bergerak ke atas,bawah,kanan,dan kiri dengan terhubungke database phpmyadmin dengan menngunakan JDBC Driver
+
 This is the project README file. Here, you should describe your project.
 Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
