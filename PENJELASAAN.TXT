@@ -17,7 +17,21 @@ adalah suatu class exeption yang membungkus kesalahan atau error saat pengaksesa
 import javax.swing.JOptionPane
 adalah sebuah class yang menyediakan jendela dialog yang kita gunakan untuk menginput, menampilkan informasi dan menampilkan pesan 
 
+public class player extends Actor 
+extends menandahkan bahwa class player merupakan subclass dari class Actor
 
+public void act()
+adalah motede yang diberikan oleh greenfoot untuk memberi kesempatan untuk melakukan beberapa tindakan
+
+ if(Greenfoot.isKeyDown("l")) pendefinisian tombol-tombol yang akan digunakan
+                setLocation(getX() -5, getY());
+            if(Greenfoot.isKeyDown("r"))
+                setLocation(getX() +5, getY());    
+
+            if(Greenfoot.isKeyDown("up")) 
+                setLocation(getX(), getY() -5);
+            if(Greenfoot.isKeyDown("d"))
+                setLocation(getX(), getY() +5);
 ------------------------------------------------------------------------
 
 PROJECT TITLE:
