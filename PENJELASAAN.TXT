@@ -2,14 +2,22 @@
 Kita membuat game dengan menggunakan aplikasi greenfoot, di aplikasi tersebut terdapat bee (lebah) yang dapat bergerak ke atas,bawah,kanan,dan kiri dengan terhubung ke database phpmyadmin dengan menngunakan JDBC Driver mysql
 Di sini kita akan membahas tentang 
 import java.sql.Connection 
+mempresentasikan suatu koneksi dengan suatu data source, juga digunakan untuk membuat objek Statement, PreparedStatement dan CallableStatement.
 merupakan penghubung koneksi ke phpmyadmin yang didalamnya terdapat :
 1. String DB : ini adalah link untuk nama databasenyaa yaitu "arah"
 2. String user : disini kita mengisi dengan "root"
 3. String Pass : kita tidak perlu mengisi  
 
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
+import java.sql.DriverManager
+adalah sebuah class yang mengelola driver dan memanggil driver JDBC ke memori, dan dapat juga digunakan untuk membuka koneksi ke sumber data.
+
+import java.sql.SQLException
+adalah suatu class exeption yang membungkus kesalahan atau error saat pengaksesan database
+
+import javax.swing.JOptionPane
+adalah sebuah class yang menyediakan jendela dialog yang kita gunakan untuk menginput, menampilkan informasi dan menampilkan pesan 
+
+
 ------------------------------------------------------------------------
 
 PROJECT TITLE:
